@@ -1,0 +1,9 @@
+.py-3.selected {
+    padding: 0;
+    margin-top: 8px;
+    /* border-bottom: 4px solid #FF444A; */
+    border-radius: 3px;
+    color: #FF444A;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
