@@ -1,0 +1,135 @@
+[
+    {
+        "id": 1,
+        "title": "Clean water for children",
+        "category":"Health",
+        "description": "Ensure access to clean and safe drinking water for children in disadvantaged areas. Many children in underserved communities lack access to clean and safe drinking water, which can lead to serious health issues. This initiative aims to provide clean water sources and purification systems to improve the well-being of these children and ensure their healthy development.",
+        "image": "https://i.ibb.co/Ykjzs3V/Health.png",
+        "price": 290.00,
+        "color_of_category_bg":"#0052FF",
+        "color_of_card_bg": "#0052FF26",
+        "color_of_text_bg": "#0052FF"
+    },
+    {
+        "id": 2,
+        "title": "Good education",
+        "category":"Education",
+        "description": "Provide quality education to underprivileged children in the community. Education is a fundamental right, but many underprivileged children face barriers to accessing quality education. This project aims to bridge the education gap by establishing schools, providing educational resources, and offering scholarships to ensure that every child has the opportunity to receive a good education.",
+        "image": "https://i.ibb.co/cJGFtmh/Education.png",
+        "price": 290.00,
+        "color_of_category_bg":"#FF444A",
+        "color_of_card_bg": "#FF444A26",
+        "color_of_text_bg": "#FF444A"
+    },
+    {
+        "id": 3,
+        "title": "Used Clothing Drive",
+        "category":"Clothing",
+        "description": "Collect and distribute gently used clothing to those in need. Many individuals and families struggle to afford basic clothing, especially during harsh weather conditions. This initiative organizes clothing drives to collect gently used garments and distribute them to those in need, ensuring that everyone has access to warm and appropriate clothing.",
+        "image": "https://i.ibb.co/wQ4DJxL/Clothing.png",
+        "price": 290.00,
+        "color_of_category_bg":"#79C23F",
+        "color_of_card_bg": "#79C23F26",
+        "color_of_text_bg": "#79C23F"
+    },
+    {
+        "id": 4,
+        "title": "Better Food for Everyone",
+        "category":"Food",
+        "description": "Support initiatives to provide nutritious food to low-income families. Access to healthy and nutritious food is a basic human need, but many low-income families struggle to afford it. This project supports initiatives that provide food assistance, food banks, and nutrition education to ensure that everyone has access to better food options.",
+        "image": "https://i.ibb.co/5B4zXZn/Food.png",
+        "price": 290.00,
+        "color_of_category_bg":"#F87147",
+        "color_of_card_bg": "#F8714726",
+        "color_of_text_bg": "#F87147"
+    },
+    {
+        "id": 5,
+        "title": "Better Food for Everyone",
+        "category":"Food",
+        "description": "Support initiatives to provide nutritious food to low-income families.",
+        "image": "https://i.ibb.co/5B4zXZn/Food.png",
+        "price": 290.00,
+        "color_of_category_bg":"#F87147",
+        "color_of_card_bg": "#F8714726",
+        "color_of_text_bg": "#F87147"
+    },
+    {
+        "id": 6,
+        "title": "Used Clothing Drive",
+        "category":"Clothing",
+        "description": "Collect and distribute gently used clothing to those in need. Many individuals and families struggle to afford basic clothing, especially during harsh weather conditions. This initiative organizes clothing drives to collect gently used garments and distribute them to those in need, ensuring that everyone has access to warm and appropriate clothing.",
+        "image": "https://i.ibb.co/wQ4DJxL/Clothing.png",
+        "price": 290.00,
+        "color_of_category_bg":"#79C23F",
+        "color_of_card_bg": "#79C23F26",
+        "color_of_text_bg": "#79C23F"
+    },
+    {
+        "id": 7,
+        "title": "Good education",
+        "category":"Education",
+        "description": "Provide quality education to underprivileged children in the community. Education is a fundamental right, but many underprivileged children face barriers to accessing quality education. This project aims to bridge the education gap by establishing schools, providing educational resources, and offering scholarships to ensure that every child has the opportunity to receive a good education.",
+        "image": "https://i.ibb.co/cJGFtmh/Education.png",
+        "price": 290.00,
+        "color_of_category_bg":"#FF444A",
+        "color_of_card_bg": "#FF444A26",
+        "color_of_text_bg": "#FF444A"
+    },
+    {
+        "id": 8,
+        "title": "Clean water for children",
+        "category":"Health",
+        "description": "Ensure access to clean and safe drinking water for children in disadvantaged areas. Many children in underserved communities lack access to clean and safe drinking water, which can lead to serious health issues. This initiative aims to provide clean water sources and purification systems to improve the well-being of these children and ensure their healthy development.",
+        "image": "https://i.ibb.co/Ykjzs3V/Health.png",
+        "price": 290.00,
+        "color_of_category_bg":"#0052FF",
+        "color_of_card_bg": "#0052FF26",
+        "color_of_text_bg": "#0052FF"
+    },
+    {
+        "id": 9,
+        "title": "Clean water for children",
+        "category":"Health",
+        "description": "Ensure access to clean and safe drinking water for children in disadvantaged areas. Many children in underserved communities lack access to clean and safe drinking water, which can lead to serious health issues. This initiative aims to provide clean water sources and purification systems to improve the well-being of these children and ensure their healthy development.",
+        "image": "https://i.ibb.co/Ykjzs3V/Health.png",
+        "price": 290.00,
+        "color_of_category_bg":"#0052FF",
+        "color_of_card_bg": "#0052FF26",
+        "color_of_text_bg": "#0052FF"
+    },
+    {
+        "id": 10,
+        "title": "Good education",
+        "category":"Education",
+        "description": "Provide quality education to underprivileged children in the community. Education is a fundamental right, but many underprivileged children face barriers to accessing quality education. This project aims to bridge the education gap by establishing schools, providing educational resources, and offering scholarships to ensure that every child has the opportunity to receive a good education.",
+        "image": "https://i.ibb.co/cJGFtmh/Education.png",
+        "price": 290.00,
+        "color_of_category_bg":"#FF444A",
+        "color_of_card_bg": "#FF444A26",
+        "color_of_text_bg": "#FF444A"
+    },
+    {
+        "id": 11,
+        "title": "Used Clothing Drive",
+        "category":"Clothing",
+        "description": "Collect and distribute gently used clothing to those in need. Many individuals and families struggle to afford basic clothing, especially during harsh weather conditions. This initiative organizes clothing drives to collect gently used garments and distribute them to those in need, ensuring that everyone has access to warm and appropriate clothing.",
+        "image": "https://i.ibb.co/wQ4DJxL/Clothing.png",
+        "price": 290.00,
+        "color_of_category_bg":"#79C23F",
+        "color_of_card_bg": "#79C23F26",
+        "color_of_text_bg": "#79C23F"
+    },
+    {
+        "id": 12,
+        "title": "Better Food for Everyone",
+        "category":"Food",
+        "description": "Support initiatives to provide nutritious food to low-income families.",
+        "image": "https://i.ibb.co/5B4zXZn/Food.png",
+        "price": 290.00,
+        "color_of_category_bg":"#F87147",
+        "color_of_card_bg": "#F8714726",
+        "color_of_text_bg": "#F87147"
+    }
+   
+]
