@@ -1,7 +1,7 @@
 
+import { Outlet } from 'react-router-dom'
 import './App.css'
 import Header from './Components/Header/Header'
-import Home from './Components/Home/Home'
 
 function App() {
 
@@ -11,7 +11,8 @@ function App() {
       <div className="flex justify-center">
         <Header></Header>
       </div>
-      <Home></Home>
+      <Outlet></Outlet>
+
 
     </div>
   )

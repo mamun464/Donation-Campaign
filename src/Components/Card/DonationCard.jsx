@@ -13,7 +13,7 @@ const DonationCard = ({ donation }) => {
     };
 
     return (
-        <Link to={`/donation/${id}`} className="card bg-base-100 shadow-xl" style={cardStyle}>
+        <Link to={`/donate/${id}`} className="card bg-base-100 shadow-xl" style={cardStyle}>
             <figure><img src={image} alt="Donation Item" /></figure>
             <div className="card-body">
                 <div className='rounded-[4px] w-fit px-[10px] py-1' style={{ ...cardStyle, ...categoryTextStyle }}>

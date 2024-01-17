@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import DonationCard from '../Card/DonationCard';
 
 const Home = () => {
-    const [donations, setDonation] = useState([])
+    const [donations, setDonation] = useState([]);
 
     useEffect(() => {
         fetch('donations.json')

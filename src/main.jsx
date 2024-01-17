@@ -6,14 +6,26 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Header from './Components/Header/Header.jsx';
 import Home from './Components/Home/Home.jsx';
+import DonationPage from './Components/DonationPage/DonationPage.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
+
+      {
+        path: "/donate/:id",
+        element: <DonationPage></DonationPage>,
+      },
+    ],
   },
+
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
