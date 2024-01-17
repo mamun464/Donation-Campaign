@@ -9,7 +9,10 @@ export default {
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
       },
+      screens: {
+        'xs': '372px',
+      }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
