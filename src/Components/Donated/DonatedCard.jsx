@@ -2,7 +2,7 @@
 import { PropTypes } from 'prop-types';
 
 const DonatedCard = ({ donatedItem }) => {
-    const { title, price, category, image, color_of_card_bg, color_of_category_bg } = donatedItem;
+    const { id, title, price, category, image, color_of_card_bg, color_of_category_bg } = donatedItem;
 
     const cardStyle = {
         backgroundColor: color_of_card_bg,
@@ -12,6 +12,11 @@ const DonatedCard = ({ donatedItem }) => {
     };
     const categoryTextStyle = {
         color: color_of_category_bg,
+    };
+
+    const handleViewDetailsClick = (id) => {
+
+        window.location.href = `/donate/${id}`;
     };
 
     return (
@@ -25,7 +30,9 @@ const DonatedCard = ({ donatedItem }) => {
                 </div>
                 <h2 className="card-title text-[#0B0B0B] text-2xl">{title}</h2>
                 <p className='font-semibold' style={categoryTextStyle} >${price}</p>
-                <button className="border-0 mt-5 btn text-white text-[18px] font-semibold px-4 py-[9px] rounded w-fit" style={detailsBtnStyle}>View Details</button>
+                <button className="border-0 mt-5 btn text-white text-[18px] font-semibold px-4 py-[9px] rounded w-fit" style={detailsBtnStyle} onClick={() => {
+                    handleViewDetailsClick(id);
+                }}>View Details</button>
             </div>
 
         </div>
