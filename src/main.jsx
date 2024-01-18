@@ -9,6 +9,7 @@ import {
 import Home from './Components/Home/Home.jsx';
 import DonationPage from './Components/DonationPage/DonationPage.jsx';
 import DonatedList from './Components/Donated/DonatedList';
+import StatisticsPage from './Components/Statistics/StatisticsPage';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
       {
         path: "/donation",
         element: <DonatedList></DonatedList>,
+      },
+
+      {
+        path: "/statistics",
+        element: <StatisticsPage></StatisticsPage>,
       },
     ],
   },
