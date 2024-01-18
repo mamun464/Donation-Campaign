@@ -8,7 +8,7 @@ const DonationPage = () => {
     const [donations, setDonation] = useState([]);
 
     useEffect(() => {
-        fetch('donations.json')
+        fetch('../../../public/donations.json')
             .then(res => res.json())
             .then(data => setDonation(data));
     }, []);
@@ -38,7 +38,7 @@ const DonationPage = () => {
             <div className="flex justify-center">
                 <div className="relative">
                     {/* Image */}
-                    <img className="mt-6 xs:h-[350px] xs:w-[750px] md:h-[700px] md:w-[1300px] md:mt-0 rounded-lg" src={donationById?.image} alt="No_Data_Found" />
+                    <img className="mt-6 xs:h-[350px] xs:w-[750px] md:h-[700px] md:w-[1300px] md:mt-0 rounded-lg" src={donationById?.image} alt="Donation_No_Data_Found" />
 
                     {/* Overlay with Donate button at the bottom */}
                     <div className="h-20 flex items-center justify-center xs:justify-start absolute left-0 bottom-0 bg-black bg-opacity-50 p-4 w-full xs:h-32 rounded-lg rounded-tl-none rounded-tr-none">
