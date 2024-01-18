@@ -43,10 +43,13 @@ const DonationPage = () => {
                     {/* Overlay with Donate button at the bottom */}
                     <div className="h-20 flex items-center justify-center xs:justify-start absolute left-0 bottom-0 bg-black bg-opacity-50 p-4 w-full xs:h-32 rounded-lg rounded-tl-none rounded-tr-none">
                         <button
-                            className=" py-2 px-3 text-white font-semibold text-xl xs:py-4 xs:px-6 xs:ml-8 rounded-[4px]"
+                            className="btn py-2 px-3 text-white font-semibold text-xl  xs:ml-8 rounded-[4px] border-0"
                             style={buttonStyle}
                             onClick={() => donationOperation(donationById?.id)}
-                        >Donate ${donationById?.price}</button>
+                        >
+                            Donate ${donationById?.price}
+                        </button>
+
                     </div>
                 </div>
 
@@ -55,6 +58,7 @@ const DonationPage = () => {
                 <h1 className="text-center md:text-start text-[#0B0B0B] font-bold text-5xl">{donationById?.title}</h1>
                 <p className="mt-6 text[#0B0B0BB3] text-justify leading-7">{donationById?.description}</p>
             </div>
+
             <ToastContainer />
         </div>
     );
