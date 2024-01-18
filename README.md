@@ -1,12 +1,17 @@
-# donation-campaign
 
-## Private Repo Link
+# Donation Campaign
 
-[Click here for the private repo](https://classroom.github.com/a/ymFUnXH9)
+## Project Features
 
+ - [Awesome Readme Templates]()
+ - [Utilize a category search.]()
+ - [ Pie chart of percentage of donate.]()
+ - [ Able to donate in any category.]()
 
-
-##  Questions
-Add Readme.md file and will have the following: 
-
-- Add at least 3 Project features 
+## 🚀 About Me
+Mamunur Rashid  
+Software Developer (Trainee)  
+Red Dot Digital || Robi Axiata Ltd  
+Cell: 01767213613  
+Email: mrashid.uiu.cse@gmail.com  
+Github: [mamun464](https://github.com/mamun464)
