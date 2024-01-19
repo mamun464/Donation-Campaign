@@ -11,7 +11,14 @@ const DonationPage = () => {
         fetch('../../../public/donations.json')
             .then(res => res.json())
             .then(data => setDonation(data));
+
     }, []);
+
+    useEffect(() => {
+        console.log("Data Loaging");
+        console.log(donations);
+
+    }, [donations]);
 
     const donationById = donations.find(donation => donation.id === parseInt(id, 10));
     const buttonStyle = {
