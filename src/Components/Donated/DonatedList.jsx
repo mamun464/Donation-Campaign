@@ -9,7 +9,7 @@ const DonatedList = () => {
 
     useEffect(() => {
         setDonated(JSON.parse(localStorage.getItem('donatedIds')) || []);
-        fetch('../../../public/donations.json')
+        fetch('/donations.json')
             .then(res => res.json())
             .then(data => setDonation(data));
     }, []);
