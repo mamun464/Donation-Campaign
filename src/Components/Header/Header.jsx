@@ -8,7 +8,7 @@ const Header = () => {
         <div className="max-w-7xl mx-auto mt-0 lg:mt-9 p-8 lg:p-0 absolute w-full z-10">
             <div className="flex flex-col md:flex-row items-center justify-between font-inter text-[#0B0B0B] font-normal text-lg">
                 <div className="w-40 mb-4 md:mb-0 md:mr-8">
-                    <img src="Logo.png" alt="Logo_Not_found" />
+                    <img src="Logo.png" alt="Nav_image_Not_found" />
                 </div>
                 <div className="flex list-none gap-8 md:gap-12">
                     <li>
