@@ -22,7 +22,7 @@ const DonatedList = () => {
 
     const displayedDonatedItems = showAll ? allDonatedItems : allDonatedItems.slice(0, displayedLimit);
 
-    // console.log(displayedDonatedItems);
+
 
     return (
         <>
