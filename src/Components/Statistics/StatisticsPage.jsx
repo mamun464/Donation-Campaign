@@ -18,7 +18,7 @@ const StatisticsPage = () => {
 
     useEffect(() => {
         const calculatedPercentagesOfDonation = ((totalDonated / allDonations) * 100).toFixed(2);
-        const calculatedPercentagesRemainingDonation = (100 - calculatedPercentagesOfDonation).toFixed(2);
+        const calculatedPercentagesRemainingDonation = Math.abs((100 - calculatedPercentagesOfDonation).toFixed(2));
 
         setPercentagesOfDonation(calculatedPercentagesOfDonation);
         setPercentagesRemainingDonation(calculatedPercentagesRemainingDonation);
