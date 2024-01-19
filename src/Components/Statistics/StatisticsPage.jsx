@@ -8,7 +8,7 @@ const StatisticsPage = () => {
     const [percentagesRemainingDonation, setPercentagesRemainingDonation] = useState(0);
 
     useEffect(() => {
-        fetch('../../../public/donations.json')
+        fetch('/donations.json')
             .then(res => res.json())
             .then(data => setDonations(data.length));
 

@@ -14,11 +14,7 @@ const DonationPage = () => {
 
     }, []);
 
-    useEffect(() => {
-        console.log("Data Loaging");
-        console.log(donations);
 
-    }, [donations]);
 
     const donationById = donations.find(donation => donation.id === parseInt(id, 10));
     const buttonStyle = {
